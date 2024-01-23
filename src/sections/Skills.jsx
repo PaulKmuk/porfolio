@@ -27,7 +27,7 @@ const Skills = () => {
                <div className='px-6 py-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 flex-[1]'>
                   {iconsTechnology.map((el, index) => (
                      <div key={index} className='flex flex-col items-center'>
-                        <div className='w-[80px] h-[80px] md:w-[90px] md:h-[90px] bg-gray-100 p-8 rounded-full drop-shadow-xl'>
+                        <div className='w-[80px] h-[80px] md:w-[90px] md:h-[90px] bg-gray-100 p-4 rounded-full drop-shadow-xl'>
                            <img src={el.icon}/>
                         </div>
                         <p className='font-bold text-center pt-2'>{el.label}</p>
